@@ -1,0 +1,150 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="854" viewBox="0 0 1600 854">
+  <defs>
+    <marker id="netArrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#461D7C"/>
+    </marker>
+    <linearGradient id="sharedGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#461D7C"/>
+      <stop offset="1" stop-color="#2F174A"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#2F174A" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect x="3" y="3" width="1594" height="848" rx="34" fill="#FFFFFF" stroke="#D8D2DE" stroke-width="6"/>
+  <rect x="3" y="3" width="1594" height="88" rx="34" fill="#461D7C"/>
+  <path d="M3 57 H1597 V91 H3 Z" fill="#461D7C"/>
+  <text x="42" y="46" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="800" letter-spacing="0.5" fill="#FFFFFF">SYMMETRY-INFORMED NEURAL NETWORK</text>
+  <text x="1558" y="45" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#FDD023">11 inputs  |  40 + 10 hidden neurons  |  1 output</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" letter-spacing="1.8" fill="#461D7C">
+    <text x="223" y="126" text-anchor="middle">PHYSICS INPUTS</text>
+    <text x="604" y="126" text-anchor="middle">SEGMENTED HIDDEN LAYER</text>
+    <text x="1039" y="126" text-anchor="middle">SHARED HIDDEN LAYER</text>
+    <text x="1433" y="126" text-anchor="middle">OUTPUT</text>
+  </g>
+
+
+    <g>
+      <rect x="48" y="151" width="350" height="132" rx="22" fill="#F1F6FF" stroke="#D8D2DE" stroke-width="3"/>
+      <rect x="48" y="151" width="12" height="132" rx="6" fill="#2F80ED"/>
+      <text x="82" y="190" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="1.5" fill="#461D7C">NUCLEUS</text>
+      <text x="82" y="232" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="700" fill="#2F174A">Z,  A - Z</text>
+      <text x="82" y="262" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#5D5962">particle numbers  |  2 inputs</text>
+    </g>
+
+    <g>
+      <rect x="48" y="306" width="350" height="132" rx="22" fill="#F1FAF7" stroke="#D8D2DE" stroke-width="3"/>
+      <rect x="48" y="306" width="12" height="132" rx="6" fill="#229C8D"/>
+      <text x="82" y="345" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="1.5" fill="#461D7C">MODEL SPACE</text>
+      <text x="82" y="387" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="700" fill="#2F174A">N<tspan baseline-shift="sub" font-size="21">max</tspan>,  &#8463;&#937;</text>
+      <text x="82" y="417" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#5D5962">basis parameters  |  2 inputs</text>
+    </g>
+
+    <g>
+      <rect x="48" y="461" width="350" height="132" rx="22" fill="#FFF9E6" stroke="#D8D2DE" stroke-width="3"/>
+      <rect x="48" y="461" width="12" height="132" rx="6" fill="#D99B00"/>
+      <text x="82" y="500" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="1.5" fill="#461D7C">SPIN</text>
+      <text x="82" y="542" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="700" fill="#2F174A">J,  S<tspan baseline-shift="sub" font-size="21">p</tspan>,  S<tspan baseline-shift="sub" font-size="21">n</tspan>,  S</text>
+      <text x="82" y="572" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#5D5962">angular momenta  |  4 inputs</text>
+    </g>
+
+    <g>
+      <rect x="48" y="616" width="350" height="132" rx="22" fill="#FFF3F5" stroke="#D8D2DE" stroke-width="3"/>
+      <rect x="48" y="616" width="12" height="132" rx="6" fill="#C64055"/>
+      <text x="82" y="655" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="1.5" fill="#461D7C">DEFORMATION</text>
+      <text x="82" y="697" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="700" fill="#2F174A">&#955; - &#955;<tspan baseline-shift="sub" font-size="21">0</tspan>,  &#956; - &#956;<tspan baseline-shift="sub" font-size="21">0</tspan>,  N</text>
+      <text x="82" y="727" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#5D5962">SU(3) shape and excitation  |  3 inputs</text>
+    </g>
+
+
+    <g filter="url(#softShadow)">
+      <rect x="468" y="151" width="272" height="132" rx="22" fill="#E7F1FF" stroke="#2F80ED" stroke-width="4"/>
+      <circle cx="546" cy="202" r="8.5" fill="#2F80ED" stroke="#FFFFFF" stroke-width="3"/><circle cx="575" cy="202" r="8.5" fill="#2F80ED" stroke="#FFFFFF" stroke-width="3"/><circle cx="604" cy="202" r="8.5" fill="#2F80ED" stroke="#FFFFFF" stroke-width="3"/><circle cx="633" cy="202" r="8.5" fill="#2F80ED" stroke="#FFFFFF" stroke-width="3"/><circle cx="662" cy="202" r="8.5" fill="#2F80ED" stroke="#FFFFFF" stroke-width="3"/>
+      <rect x="633" y="239" width="83" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.92"/>
+      <text x="674.5" y="259" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#461D7C">5 ReLU</text>
+    </g>
+
+    <g filter="url(#softShadow)">
+      <rect x="468" y="306" width="272" height="132" rx="22" fill="#E4F7F1" stroke="#229C8D" stroke-width="4"/>
+      <circle cx="546" cy="357" r="8.5" fill="#229C8D" stroke="#FFFFFF" stroke-width="3"/><circle cx="575" cy="357" r="8.5" fill="#229C8D" stroke="#FFFFFF" stroke-width="3"/><circle cx="604" cy="357" r="8.5" fill="#229C8D" stroke="#FFFFFF" stroke-width="3"/><circle cx="633" cy="357" r="8.5" fill="#229C8D" stroke="#FFFFFF" stroke-width="3"/><circle cx="662" cy="357" r="8.5" fill="#229C8D" stroke="#FFFFFF" stroke-width="3"/>
+      <rect x="633" y="394" width="83" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.92"/>
+      <text x="674.5" y="414" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#461D7C">5 ReLU</text>
+    </g>
+
+    <g filter="url(#softShadow)">
+      <rect x="468" y="461" width="272" height="132" rx="22" fill="#FFF1C2" stroke="#D99B00" stroke-width="4"/>
+      <circle cx="546" cy="497.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/><circle cx="575" cy="497.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/><circle cx="604" cy="497.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/><circle cx="633" cy="497.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/><circle cx="662" cy="497.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/><circle cx="546" cy="526.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/><circle cx="575" cy="526.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/><circle cx="604" cy="526.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/><circle cx="633" cy="526.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/><circle cx="662" cy="526.5" r="8.5" fill="#D99B00" stroke="#FFFFFF" stroke-width="3"/>
+      <rect x="633" y="549" width="83" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.92"/>
+      <text x="674.5" y="569" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#461D7C">10 ReLU</text>
+    </g>
+
+    <g filter="url(#softShadow)">
+      <rect x="468" y="616" width="272" height="132" rx="22" fill="#FFE2E7" stroke="#C64055" stroke-width="4"/>
+      <circle cx="517" cy="638" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="546" cy="638" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="575" cy="638" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="604" cy="638" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="633" cy="638" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="662" cy="638" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="691" cy="638" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="517" cy="667" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="546" cy="667" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="575" cy="667" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="604" cy="667" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="633" cy="667" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="662" cy="667" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="691" cy="667" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="517" cy="696" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="546" cy="696" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="575" cy="696" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="604" cy="696" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="633" cy="696" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/><circle cx="662" cy="696" r="8.5" fill="#C64055" stroke="#FFFFFF" stroke-width="3"/>
+      <rect x="633" y="704" width="83" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.92"/>
+      <text x="674.5" y="724" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#461D7C">20 ReLU</text>
+    </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M398 187 C425 187 438 187 468 187" stroke="#2F80ED" stroke-width="5"/>
+    <path d="M398 217 C425 217 438 217 468 217" stroke="#2F80ED" stroke-width="3" opacity="0.48"/>
+    <path d="M398 248 C425 248 438 248 468 248" stroke="#2F80ED" stroke-width="4" opacity="0.72"/>
+    <path d="M398 342 C425 342 438 342 468 342" stroke="#229C8D" stroke-width="5"/>
+    <path d="M398 372 C425 372 438 372 468 372" stroke="#229C8D" stroke-width="3" opacity="0.48"/>
+    <path d="M398 403 C425 403 438 403 468 403" stroke="#229C8D" stroke-width="4" opacity="0.72"/>
+    <path d="M398 497 C425 497 438 497 468 497" stroke="#D99B00" stroke-width="5"/>
+    <path d="M398 527 C425 527 438 527 468 527" stroke="#D99B00" stroke-width="3" opacity="0.48"/>
+    <path d="M398 558 C425 558 438 558 468 558" stroke="#D99B00" stroke-width="4" opacity="0.72"/>
+    <path d="M398 652 C425 652 438 652 468 652" stroke="#C64055" stroke-width="5"/>
+    <path d="M398 682 C425 682 438 682 468 682" stroke="#C64055" stroke-width="3" opacity="0.48"/>
+    <path d="M398 713 C425 713 438 713 468 713" stroke="#C64055" stroke-width="4" opacity="0.72"/>
+  </g>
+
+  <g fill="none" stroke="#461D7C" stroke-linecap="round">
+    <path d="M740 188 C830 188 846 316 920 354" stroke-width="4" opacity="0.34"/>
+    <path d="M740 218 C826 218 854 348 920 384" stroke-width="6" opacity="0.58"/>
+    <path d="M740 248 C827 248 866 387 920 414" stroke-width="3" opacity="0.24"/>
+    <path d="M740 343 C820 343 850 386 920 407" stroke-width="5" opacity="0.48"/>
+    <path d="M740 373 C820 373 855 422 920 437" stroke-width="3" opacity="0.25"/>
+    <path d="M740 403 C824 403 854 458 920 467" stroke-width="6" opacity="0.58"/>
+    <path d="M740 498 C825 498 854 440 920 430" stroke-width="5" opacity="0.52"/>
+    <path d="M740 528 C824 528 856 470 920 460" stroke-width="3" opacity="0.27"/>
+    <path d="M740 558 C825 558 856 500 920 490" stroke-width="6" opacity="0.60"/>
+    <path d="M740 653 C825 653 854 515 920 478" stroke-width="4" opacity="0.36"/>
+    <path d="M740 683 C825 683 856 548 920 508" stroke-width="6" opacity="0.58"/>
+    <path d="M740 713 C825 713 866 588 920 538" stroke-width="3" opacity="0.24"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="920" y="254" width="238" height="384" rx="34" fill="url(#sharedGradient)"/>
+    <text x="1039" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="#FDD023">DENSE INTEGRATION</text>
+    <text x="1039" y="334" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#E7DAF7">all-to-all connections</text>
+    <circle cx="979" cy="382" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/><circle cx="1008" cy="382" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/><circle cx="979" cy="411" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/><circle cx="1008" cy="411" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/><circle cx="979" cy="440" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/><circle cx="1008" cy="440" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/><circle cx="979" cy="469" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/><circle cx="1008" cy="469" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/><circle cx="979" cy="498" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/><circle cx="1008" cy="498" r="8.5" fill="#FDD023" stroke="#FFFFFF" stroke-width="3"/>
+    <text x="1039" y="586" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">10 ReLU neurons</text>
+    <text x="1039" y="612" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#E7DAF7">cross-family correlations</text>
+  </g>
+
+  <path d="M1158 446 H1300" stroke="#461D7C" stroke-width="10" stroke-linecap="round" marker-end="url(#netArrow)"/>
+  <g filter="url(#softShadow)">
+    <circle cx="1433" cy="446" r="103" fill="#FFF9E6" stroke="#FDD023" stroke-width="13"/>
+    <circle cx="1433" cy="446" r="58" fill="#461D7C"/>
+    <text x="1433" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">P</text>
+  </g>
+  <text x="1433" y="581" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" fill="#461D7C">CONFIGURATION</text>
+  <text x="1433" y="611" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#5D5962">probability amplitude</text>
+  <rect x="1379" y="631" width="108" height="31" rx="15.5" fill="#461D7C"/>
+  <text x="1433" y="653" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">SIGMOID</text>
+
+  <g>
+    <text x="604" y="791" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#5D5962">
+      <tspan x="604" dy="0">Each input family is</tspan>
+      <tspan x="604" dy="23">processed independently</tspan>
+    </text>
+    <text x="1039" y="791" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#5D5962">
+      <tspan x="1039" dy="0">Information is then integrated</tspan>
+      <tspan x="1039" dy="23">across input families</tspan>
+    </text>
+  </g>
+</svg>
