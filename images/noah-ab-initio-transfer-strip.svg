@@ -1,0 +1,88 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="transferTitle transferDesc">
+  <title id="transferTitle">From ab initio calculations to new nuclei</title>
+  <desc id="transferDesc">Years of ab initio calculations across several nuclei train a symmetry-informed neural network through the sd shell, enabling predictions of nuclear structure beyond the training set.</desc>
+  <defs>
+    <marker id="transferArrow" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" viewBox="0 0 10 10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#461D7C"/>
+    </marker>
+  </defs>
+
+  <rect x="3" y="3" width="1594" height="474" rx="28" fill="#FFFFFF" stroke="#D8D2DE" stroke-width="6"/>
+
+  <rect x="20" y="20" width="470" height="440" rx="24" fill="#F7F4FA" stroke="#D8D2DE" stroke-width="3"/>
+  <rect x="565" y="20" width="470" height="440" rx="24" fill="#FFF9E6" stroke="#E8D27B" stroke-width="3"/>
+  <rect x="1110" y="20" width="470" height="440" rx="24" fill="#F3EEF8" stroke="#CFC7D9" stroke-width="3"/>
+
+  <path d="M500 240 H550" stroke="#461D7C" stroke-width="8" stroke-linecap="round" marker-end="url(#transferArrow)"/>
+  <path d="M1045 240 H1095" stroke="#461D7C" stroke-width="8" stroke-linecap="round" marker-end="url(#transferArrow)"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#461D7C" font-weight="800">
+    <text x="255" y="60" font-size="38">YEARS OF</text>
+    <text x="255" y="101" font-size="38">AB INITIO</text>
+    <text x="255" y="142" font-size="38">CALCULATIONS</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g transform="translate(48 190)">
+      <rect x="0" y="0" width="126" height="210" rx="16" fill="#FFFFFF" stroke="#A69AB2" stroke-width="4"/>
+      <circle cx="63" cy="43" r="29" fill="#461D7C"/>
+      <text x="63" y="52" font-size="27" font-weight="800" fill="#FFFFFF">4He</text>
+      <path d="M18 181 V102 M18 181 H111" fill="none" stroke="#7C7087" stroke-width="3" stroke-linecap="round"/>
+      <g fill="#461D7C"><rect x="27" y="149" width="11" height="32" rx="3"/><rect x="43" y="121" width="11" height="60" rx="3"/><rect x="59" y="137" width="11" height="44" rx="3"/><rect x="75" y="109" width="11" height="72" rx="3"/><rect x="91" y="158" width="11" height="23" rx="3"/></g>
+    </g>
+    <g transform="translate(192 190)">
+      <rect x="0" y="0" width="126" height="210" rx="16" fill="#FFFFFF" stroke="#8C78A4" stroke-width="4"/>
+      <circle cx="63" cy="43" r="29" fill="#461D7C"/>
+      <text x="63" y="52" font-size="27" font-weight="800" fill="#FFFFFF">16O</text>
+      <path d="M18 181 V102 M18 181 H111" fill="none" stroke="#7C7087" stroke-width="3" stroke-linecap="round"/>
+      <g fill="#461D7C"><rect x="27" y="163" width="11" height="18" rx="3"/><rect x="43" y="141" width="11" height="40" rx="3"/><rect x="59" y="105" width="11" height="76" rx="3"/><rect x="75" y="127" width="11" height="54" rx="3"/><rect x="91" y="152" width="11" height="29" rx="3"/></g>
+    </g>
+    <g transform="translate(336 190)">
+      <rect x="0" y="0" width="126" height="210" rx="16" fill="#FFFFFF" stroke="#461D7C" stroke-width="5"/>
+      <circle cx="63" cy="43" r="29" fill="#461D7C"/>
+      <text x="63" y="52" font-size="27" font-weight="800" fill="#FFFFFF">20Ne</text>
+      <path d="M18 181 V102 M18 181 H111" fill="none" stroke="#7C7087" stroke-width="3" stroke-linecap="round"/>
+      <g fill="#461D7C"><rect x="27" y="155" width="11" height="26" rx="3"/><rect x="43" y="113" width="11" height="68" rx="3"/><rect x="59" y="145" width="11" height="36" rx="3"/><rect x="75" y="123" width="11" height="58" rx="3"/><rect x="91" y="103" width="11" height="78" rx="3"/></g>
+    </g>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#461D7C" font-weight="800">
+    <text x="800" y="62" font-size="36">SYMMETRY-INFORMED</text>
+    <text x="800" y="103" font-size="38">NEURAL NETWORK</text>
+  </g>
+  <g stroke="#461D7C" stroke-width="3" opacity="0.34">
+    <path d="M677 198 L786 180 M677 198 L786 216 M677 198 L786 252 M677 234 L786 180 M677 234 L786 216 M677 234 L786 252 M677 270 L786 180 M677 270 L786 216 M677 270 L786 252"/>
+    <path d="M806 180 L915 198 M806 180 L915 234 M806 180 L915 270 M806 216 L915 198 M806 216 L915 234 M806 216 L915 270 M806 252 L915 198 M806 252 L915 234 M806 252 L915 270"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#461D7C" stroke-width="6">
+    <circle cx="667" cy="198" r="12"/><circle cx="667" cy="234" r="12"/><circle cx="667" cy="270" r="12"/>
+    <circle cx="796" cy="180" r="12" fill="#FDD023"/><circle cx="796" cy="216" r="12" fill="#FDD023"/><circle cx="796" cy="252" r="12" fill="#FDD023"/>
+    <circle cx="925" cy="198" r="12"/><circle cx="925" cy="234" r="12"/><circle cx="925" cy="270" r="12"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" text-anchor="middle" fill="#461D7C">
+    <rect x="651" y="308" width="70" height="42" rx="12" fill="#FFFFFF" stroke="#CFC7D9" stroke-width="3"/><text x="686" y="337">s</text>
+    <rect x="730" y="308" width="70" height="42" rx="12" fill="#FFFFFF" stroke="#CFC7D9" stroke-width="3"/><text x="765" y="337">p</text>
+    <rect x="809" y="308" width="70" height="42" rx="12" fill="#FFFFFF" stroke="#CFC7D9" stroke-width="3"/><text x="844" y="337">sd</text>
+    <rect x="888" y="308" width="70" height="42" rx="12" fill="#FFFFFF" stroke="#CFC7D9" stroke-width="3"/><text x="923" y="337">new</text>
+  </g>
+  <rect x="612" y="374" width="376" height="65" rx="18" fill="#FDD023"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#2F174A" font-weight="800">
+    <text x="800" y="404" font-size="29">TRAINED THROUGH</text>
+    <text x="800" y="433" font-size="29">THE sd SHELL</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#461D7C" font-weight="800">
+    <text x="1345" y="59" font-size="34">PREDICTING</text>
+    <text x="1345" y="99" font-size="34">NUCLEAR STRUCTURE</text>
+    <text x="1345" y="135" font-size="27">BEYOND THE TRAINING SET</text>
+  </g>
+  <circle cx="1268" cy="270" r="43" fill="#461D7C" stroke="#FDD023" stroke-width="8"/>
+  <text x="1268" y="283" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" fill="#FFFFFF">N</text>
+  <path d="M1318 270 C1352 270 1363 230 1390 220 M1318 270 C1352 270 1363 310 1390 320" fill="none" stroke="#461D7C" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="1443" cy="216" rx="31" ry="63" fill="#FFFFFF" stroke="#461D7C" stroke-width="7"/>
+  <ellipse cx="1443" cy="324" rx="66" ry="30" fill="#FFFFFF" stroke="#461D7C" stroke-width="7"/>
+  <circle cx="1443" cy="216" r="10" fill="#FDD023"/><circle cx="1443" cy="324" r="10" fill="#FDD023"/>
+  <rect x="1158" y="384" width="374" height="62" rx="18" fill="#461D7C"/>
+  <text x="1345" y="424" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">SHAPE COEXISTENCE</text>
+</svg>
